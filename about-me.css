@@ -1,0 +1,373 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+}
+.menu_logo{
+    opacity: 0;
+}
+.card{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+.card1{
+    width: 20%;
+    overflow-y: hidden;
+    position: fixed;
+}
+.part1{
+    height: 30vh;
+    background-color: teal;
+    background-image: url("profile.jpg");
+    background-position-x: -50px;
+    background-position-y: -250px;
+}
+.part2{
+    height: 70vh;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.menu_text{
+    margin-top: 4vh;
+    height: 60vh;
+    font-family: Montserrat, sans-serif;
+    font-size: small;
+    font-weight: normal;
+}
+h1:hover{
+    cursor: pointer;
+    color: #FFFFFF;
+    width: auto;
+    border-radius: 30px;
+}
+.card2{
+    width: 80%;
+    height: 100vh;
+    scroll-behavior: inherit;
+    margin-left: 22%;
+}
+.TOPICS{
+    height: 30vh;
+}
+.topic_sub{
+    border: #333333 1px solid;
+    border-style: dashed;
+    height: 20vh;
+    margin-top: 3vh;
+    text-align: center;
+    padding-bottom: 2vh;
+    font-size: 20vh;
+    width: 80%;
+    padding-left: 9.5%;
+    padding-right: 9.5%;
+}
+.DATAS{
+    height: 70vh;
+}
+.data_sub{
+    font-size: 30px;
+}
+p{
+    width:100%;
+    text-align: justify;
+}
+.skills{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Montserrat, sans-serif;
+    height: 38vh;
+    width: 60%;
+    text-align: center;
+}
+td{
+    font-size: 20px;
+}
+span{
+    color: orange;
+    font-size: 45px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.what_i_Do{
+    font-family: Montserrat, sans-serif;
+    margin-top: 1.5vh;
+    margin-left: 2.5%;
+    font-size: 30px;
+}
+.tech{
+    margin-top: 2.5vh;
+    display: flex;
+    text-align: justify;
+}
+.about_me{
+    height: 100vh;
+}
+.education{
+    height: 100vh;
+}
+.work{
+    height: 100vh;
+}
+.contact-me{
+    height: 100vh;
+}
+.middle_dotted_line{
+    margin-top: 2vh;
+    border: #333333 1px solid;
+    border-style: dashed;
+}
+.time_period{
+    text-align: center;
+    font-size: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: "High Tower Text";
+    background-color: orange;
+    color: #FFFFFF;
+}
+.skill_div_1{
+    width: 100%;
+    margin-top: 2vh;
+    display: grid;
+    column-gap: 2em;
+    grid-template-columns: 30% 30% 30%;
+}
+.numbers_of_skill{
+    height: 25vh;
+    justify-items: stretch;
+    text-align: justify;
+}
+.skill_div_2{
+    width: 100%;
+    margin-top: 2vh;
+    display: grid;
+    column-gap: 2em;
+    grid-template-columns: 30% 30% 30%;
+}
+.work_example{
+    display: flex;
+    flex-direction: row;
+    place-content: space-evenly;
+}
+.work_example_1{
+    width: 40%;
+    text-align: center;
+}
+.work_example_2{
+    width: 40%;
+    text-align: center;
+}
+.work_example td{
+    width: 25%;
+}
+.contact-me_table{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 10%;
+    height: 40vh;
+    margin-left: 10%;
+    align-items: center;
+}
+.contact_1{
+    display: flex;
+}
+.contact_1 p{
+    margin-top: 9vh;
+    font-size: 3vh;
+}
+.thanks{
+    text-align: center;
+    margin-top: 3vh;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 480px) {
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        font-family: Montserrat, sans-serif;
+    }
+    .card {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 100vh;
+    }
+    .card1 {
+        opacity: 0;
+    }
+    .card2 {
+        width: 100%;
+        height: 100vh;
+        margin-left: 0%;
+    }
+    .TOPICS{
+        height: 15vh;
+        width: 100%;
+
+    }
+    .topic_sub{
+        border: #333333 solid 1px;
+        border-style: dashed;
+        width: 100%;
+        font-size: 10vh;
+        height: fit-content;
+        padding: 0vh;
+        margin-top: 5vh;
+        padding-bottom: 0vh;
+        text-align: center;
+    }
+    .DATAS{
+        height: 85vh;
+        width: 100%;
+    }
+    .data_sub{
+        font-size: 24px;
+        width: 100%;
+    }
+    p{
+        width:100%;
+        height: 0vh;
+        opacity: 0;
+        font-size: 1px;
+    }
+    .skills{
+        background-color: #000000;
+        color: #FFFFFF;
+        font-family: Montserrat, sans-serif;
+        height: 25vh;
+        width: 100%;
+        margin-top: 2.5vh;
+        text-align: center;
+    }
+    td{
+        font-size: 20px;
+    }
+    span{
+        color: orange;
+        font-size: 45px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .what_i_Do{
+        font-family: Montserrat, sans-serif;
+        margin-top: 1.5vh;
+        margin-left: 2.5%;
+        font-size: 25px;
+    }
+    .tech{
+        margin-top: 2.5vh;
+        text-align: justify;
+    }
+    .about_me{
+        height: 100vh;
+    }
+    .education{
+        height: 100vh;
+    }
+    .work{
+        height: 100vh;
+    }
+    .contact-me{
+        height: 100vh;
+    }
+    .middle_dotted_line{
+        opacity: 0;
+        font-size: 0;
+        padding: 0;
+        margin: 0;
+    }
+    .time_period{
+        text-align: center;
+        font-size: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-family: "High Tower Text";
+        background-color: orange;
+        color: #FFFFFF;
+    }
+    .skill_div_1{
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .skill_div_1 p{
+        opacity: 1;
+        font-size: 2vh;
+        margin-top: 0;
+    }
+    .skill_div_2 p {
+        opacity: 1;
+        font-size: 2vh;
+        margin-top: 0;
+    }
+    .numbers_of_skill{
+        height: 10vh;
+        text-align: justify;
+        font-size: 2.5vh;
+        margin-top: 2vh;
+    }
+    .skill_div_2{
+        width: 100%;
+        height: 35vh;
+        display: flex;
+        margin-top: 0;
+        flex-direction: column;
+    }
+    .work_example{
+        display: flex;
+        flex-direction: column;
+    }
+    .work_example_1{
+        width: 100%;
+        text-align: center;
+    }
+    .work_example_2{
+        width: 100%;
+        margin-top: 2vh;
+        text-align: center;
+    }
+    .extra_photo{
+        display: none;
+    }
+    .work_example td{
+        width: 25%;
+    }
+    .contact-me_table{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        align-items: start;
+    }
+    .contact_1{
+        margin-left: 0;
+    }
+    .contact_1 p{
+        opacity: 1;
+    }
+    .thanks{
+        text-align: center;
+        margin-top: 10vh;
+        font-size: 48px;
+    }
+
+}
+
+
+
+
+
+
+
